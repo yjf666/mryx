@@ -1,0 +1,272 @@
+page {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.head {
+  width: 710rpx;
+  height: 350rpx;
+
+  padding: 60rpx 20rpx 0 20rpx;
+  overflow: hidden;
+}
+
+.headmain {
+  width: 100%;
+  height: 100rpx;
+}
+
+.headimage {
+  width: 100rpx;
+  height: 100rpx;
+  background: blue;
+  border-radius: 50%;
+  float: left;
+}
+.himg{
+   width: 100rpx;
+  height: 100rpx;
+  display: block
+}
+.username {
+  height: 100rpx;
+  /* background: red; */
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  /* background: yellow; */
+  padding: 0 20rpx;
+}
+
+.vip {
+  width: 200rpx;
+  height: 100rpx;
+  display: flex;
+}
+
+.vip text {
+  font-size: 20rpx;
+  margin-top: 40rpx;
+  height: 20rpx;
+  padding: 5rpx 10rpx;
+  line-height: 25rpx;
+}
+
+.yx {
+  background: grey;
+  color: yellow;
+  border-radius: 20rpx 0 0 20rpx;
+}
+
+.ty {
+  background: yellow;
+  color: grey;
+  border-radius: 0rpx 20rpx 20rpx 0rpx;
+}
+
+.car {
+  width: 100%;
+  height: 280rpx;
+  background: grey;
+  float: left;
+  border-radius: 20rpx 20rpx 0 0;
+  margin-top: 20rpx;
+}
+
+.cartop {
+  width: 670rpx;
+  padding: 0 20rpx;
+  height: 80rpx;
+  /* background: blue; */
+}
+
+.carbot {
+  width: 670rpx;
+  padding: 30rpx 20rpx;
+  height: 140rpx;
+  /* background: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carbot text {
+  width: 25%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 25rpx;
+  color: gold;
+  margin-top: -10rpx;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top text {
+  font-size: 20rpx;
+}
+
+.js {
+  line-height: 30rpx;
+  margin-top: 25rpx;
+  color: gold;
+}
+
+.xf {
+  /* display: block; *//* width: 100rpx; */
+  margin-top: 20rpx;
+  height: 20rpx;
+  padding: 10rpx 20rpx;
+  background: yellow;
+  color: grey;
+  text-align: center;
+  line-height: 20rpx;
+  border-radius: 20rpx;
+}
+
+.er {
+  width: 710rpx;
+  padding: 0 20rpx;
+  /* background: red; */
+  height: 120rpx;
+  margin-top: 20rpx;
+}
+
+.ermain {
+  width: 100%;
+  height: 100%;
+  /* background: blue; */
+  display: flex;
+  border-radius: 20rpx;
+  background: white;
+}
+
+.list {
+  width: 25%;
+  height: 60%;
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25rpx;
+  font-size: 25rpx;
+}
+
+.active {
+  border-right: 1px solid #ccc;
+}
+
+.dd {
+  width: 710rpx;
+  padding: 0 20rpx;
+  height: 220rpx;
+  /* background: red; */
+  margin-top: 20rpx;
+}
+
+.ddmain {
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+  background: white;
+}
+
+.title {
+  width: 670rpx;
+  padding: 30rpx 20rpx;
+  height: 40rpx;
+  /* background: blue; */
+  display: flex;
+  justify-content: space-between;
+  line-height: 40rpx;
+}
+
+.ddlist {
+  width: 100%;
+  height: 120rpx;
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.ddli {
+  width: 20%;
+  height: 100%;
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}
+
+.ddli image {
+  width: 70rpx;
+  height: 80rpx;
+  /* background: blue; */
+  margin: 0 auto;
+}
+
+.fuwu {
+  width: 710rpx;
+  height: auto;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+
+.fuwumain {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 20rpx;
+}
+
+.fuwutit {
+  width: 670rpx;
+  padding: 0 20rpx;
+  height: 80rpx;
+  /* background: blue; */
+  line-height: 80rpx;
+}
+
+.maaaa {
+  width: 670rpx;
+  padding: 0 20rpx;
+  /* background: blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fuli {
+  width: 33%;
+  height: 120rpx;
+  /* background: yellow; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  margin-top: 10rpx;
+}
+
+.fuli image {
+  width: 80rpx;
+  height: 80rpx;
+  /* background: red; */
+  margin: 0 auto;
+}
+
+.tz {
+  width: 33%;
+}

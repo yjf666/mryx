@@ -1,0 +1,14 @@
+<view class="orders-address" wx:for="{{addressList}}" >
+  <text class="orders-address-detail">{{item.add}}</text>
+
+  <text class="orders-address-detail">{{item.number}}</text>
+  <view class="mmm">
+    <text class="orders-address-name">收货人: {{item.name}}</text>
+    <text class="orders-address-phone">电话: {{item.phone}}</text>
+  </view>
+  <image src="../../images/sc.png" class="mmmm" bindtap="delAddress"  data-id="{{index}}"></image>
+</view>
+
+<view class="xss">
+<view class="xg" bindtap="xzz">新增收货地址</view>
+</view>

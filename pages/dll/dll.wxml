@@ -1,0 +1,12 @@
+<view class="main">
+  <view class="zhong">
+    <image webp src="https://timg05.bdimg.com/timg?wapbaike&quality=60&size=b1125_744&sec=1349839550&di=fc424239a035979a7c167c0987ec3526&src=http://bkimg.cdn.bcebos.com/pic/caef76094b36acaf53d348a472d98d1001e99cb3" class="image"></image>
+    <text>每日优鲜</text>
+  </view>
+  <view class="xxxx">
+  <navigator url="../zhuce/zhuce">
+  <text bindtap="dll">手机号登录</text>
+  </navigator>
+  
+  </view>
+</view>

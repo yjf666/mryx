@@ -1,0 +1,173 @@
+.search{
+  width: 710rpx;
+  height: 60rpx;
+  padding:  0 20rpx;
+  /* background: red; */
+}
+.secrch-main{
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.05);
+  border-radius: 20rpx;
+  font-size: 20rpx;
+  display: flex;
+  justify-content: center;
+  line-height: 50rpx;
+}
+.zz{
+  line-height: 70rpx;
+  margin-left: 20rpx;
+  color: #999999;
+}
+.left{
+  width: 180rpx;
+  height: 1050rpx;
+  
+float: left;
+ background:rgba(0, 0, 0, 0.05);
+}
+.le-list{
+  width: 100%;
+  height: 100rpx;
+  
+  font-size: 26rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.le-list-slick{
+  width: 100%;
+  height: 100rpx;
+  background: white;
+ 
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.top{
+  width: 570rpx;
+  height: 60rpx;
+  /* background: red; */
+  float: left;
+   white-space: nowrap;
+}
+.top-list{
+  padding: 5rpx 10rpx;
+  border: 1rpx solid #999999;
+ display: inline-block;
+font-size: 24rpx;
+border-radius: 5rpx;
+margin-right: 10rpx;
+margin-top: 10rpx;
+}
+.top-list-select{
+  padding: 5rpx 10rpx;
+  border: 1rpx solid pink;
+ display: inline-block;
+font-size: 24rpx;
+border-radius: 5rpx;
+margin-right: 10rpx;
+margin-top: 10rpx;
+}
+.right{
+  width: 530rpx;
+  padding:  0 20rpx;
+  height: 990rpx;
+  
+  float: left;
+}
+.right-list{
+  width: 100%;
+  height: 180rpx;
+  /* background: red; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.image1{
+  width: 160rpx;
+  height: 160rpx;
+  /* background: red; */
+  float: left;
+}
+.riiii{
+  width: 350rpx;
+  padding-left: 20rpx;
+  float: right;
+  height: 180rpx;
+  /* background: blue; */
+  position: relative;
+}
+.titlee{
+  width: 100%;
+  height: 40rpx;
+  /* background: yellow; */
+
+}
+.yuan{
+  width: 100%;
+  height: 40rpx;
+}
+.yuan text{
+  border: 1rpx solid #999999;
+ display: inline-block;
+font-size: 18rpx;
+border-radius: 5rpx;
+color: #999999;
+margin-right: 20rpx;
+}
+.price{
+  width: 350rpx;
+  height: 60rpx;
+  /* background: red; */
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.money{
+  width: 50%;
+  height: 100%;
+  /* background: pink; */
+  color: red;
+}
+.numm{
+   width: 50%;
+  height: 100%;
+  /* background: black; */
+}
+.jianaa{
+  width: 66%;
+  height: 100%;
+  float: left;
+  /* background: red; */
+  
+}
+.jia{
+  width: 33%;
+  height: 100%;
+  border-radius: 50%;
+  
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+.jian{
+  width: 33%;
+  height: 100%;
+  border-radius: 50%;
+  
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+.jianaa text{
+  display: inline-block;
+  height: 100%;
+  line-height: 60rpx;
+  margin-left: 40rpx;
+  font-size: 28rpx;
+}
+.image2{
+  width: 40rpx;
+  height: 40rpx;
+margin-top: 10rpx;
+}

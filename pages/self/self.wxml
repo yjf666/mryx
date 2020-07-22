@@ -1,0 +1,117 @@
+<view class="head">
+  <view class="headmain">
+    <view class="headimage"> <image class='himg' src="{{userInfo.avatarUrl}}"></image></view>
+    <view class="username">
+      <text class="user" bindtap="dll">{{aa}}</text>
+      <view class="vip">
+        <text class="yx">优享会员</text>
+        <text class="ty">体验卡</text>
+      </view>
+    </view>
+  </view>
+  <view class="car">
+    <view class="cartop">
+      <view class="top">
+        <text class="js">已为您节省0.00</text>
+        <text class="xf"> 立即续费</text>
+      </view>
+    </view>
+    <view class="carbot">
+      <text>专享价</text>
+      <text>任务红包</text>
+      <text>1小时送达</text>
+      <text>会员日</text>
+      <text>共享会员</text>
+      <text>超级积分</text>
+      <text>专属客服</text>
+      <text>敬请期待</text>
+    </view>
+  </view>
+</view>
+<view class="er">
+  <view class="ermain">
+    <view class="list active">
+      <text>￥0</text>
+      <text>余额</text>
+    </view>
+    <view class="list active">
+      <text>0</text>
+      <text>优惠券</text>
+    </view>
+    <view class="list active">
+      <text>0</text>
+      <text>商品券</text>
+    </view>
+    <view class="list">
+      <text>0</text>
+      <text>鲜币兑换</text>
+    </view>
+  </view>
+</view>
+<view class="dd">
+  <view class="ddmain">
+    <view class="title">
+      <text>我的订单</text>
+      
+      <text style="font-size:20rpx;color:#cccccc" bindtap="qb">全部订单</text>
+      
+    </view>
+    <view class="ddlist">
+      <view class="ddli">
+        <image src="../../images/dzf.png" webp></image>
+        <text>待支付</text>
+      </view>
+      <view class="ddli">
+        <image src="../../images/dps.png" webp></image>
+        <text>待配送</text>
+      </view>
+      <view class="ddli">
+        <image src="../../images/psz.png" webp></image>
+        <text>配送中</text>
+      </view>
+      <view class="ddli">
+        <image src="../../images/pj.png" webp></image>
+        <text>待评价</text>
+      </view>
+      <view class="ddli">
+        <image src="../../images/sh.png" webp></image>
+        <text>售后/退款</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="fuwu">
+  <view class="fuwumain">
+    <view class="fuwutit">我的服务</view>
+    <view class="maaaa">
+      <view class="fuli">
+        <image src="../../images/我的/lw.png"></image>
+        <text>储值送红包</text>
+      </view>
+      <view class="fuli">
+        <image src="../../images/我的/pt.png"></image>
+        <text>我的拼团</text>
+      </view>
+      <view class="fuli">
+        <image src="../../images/我的/jf.png"></image>
+        <text>积分商城</text>
+      </view>
+      <view class="fuli">
+        <image src="../../images/我的/hb.png"></image>
+        <text>邀请得现金</text>
+      </view>
+      <view class="fuli" bindtap="shouhuo">
+        <image src="../../images/我的/dz.png"></image>
+        <text>收货地址</text>
+      </view>
+      <view class="fuli">
+        <image src="../../images/我的/kf.png"></image>
+        <text>客服和帮助</text>
+      </view>
+      <view class="fuli">
+        <image src="../../images/我的/sz.png"></image>
+        <text>设置</text>
+      </view>
+    </view>
+  </view>
+</view>

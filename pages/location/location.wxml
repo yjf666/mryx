@@ -1,0 +1,13 @@
+<view class="head">
+  <view class="headinp">
+    <view class="asd">{{address}}</view>
+    <input class="sec" bindinput="inputvalue" placeholder="输入搜索内容" value="{{input_value}}"></input>
+  </view>
+</view>
+<view class="songzhi">送至</view>
+<view class="addre">{{asd}}</view>
+<view class="songzhi">当前定位</view>
+<view class="addre">
+<image webp src="../../images/dzz.png" class="imagess"></image>
+{{asd}}</view>
+<view class="songzhi">附近地址</view>

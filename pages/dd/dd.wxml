@@ -1,0 +1,28 @@
+<view class="title">
+  <text>全部订单</text>
+  <text>待评价</text>
+  <text>退款</text>
+</view>
+<view class="main">
+  <view class="list" wx:for="{{jie}}" wx:key="this">
+  <image src="{{item.image}}" class="imagee" webp></image>
+    <view class="titlee">
+      <text class="iii">
+
+<text>{{item.title}}</text>
+      </text>
+      <text class="wanchn">订单已完成</text>
+    </view>
+    <view class="liii" wx:for="{{data}}">
+      <text>{{item.title}}</text>
+      <text>{{item.numm}}</text>
+    </view>
+    <view class="qian">
+    <text>共{{item.numm}}商品</text>
+    
+    </view>
+    <view class="sc" bindtap="delAddress" data-id="{{index}}">
+    <text>删除订单</text>
+    </view>
+  </view>
+</view>

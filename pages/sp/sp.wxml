@@ -1,0 +1,45 @@
+<view class="swiper">
+  <swiper indicator-dots="true" autoplay="true" interval="2000" circular="true" class="spwe" current="{{id}}">
+    <swiper-item wx:for="{{sppp.imglist}}" class="item" wx:key="this">
+      <image src="{{item}}" class="image"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class="er">
+  <view class="er-tit">
+    <text class="tex1">{{sppp.title}}</text>
+    <text class="tex2">好物推荐</text>
+  </view>
+  <view class="er-lit">味道清甜而不腻饱满无沉淀</view>
+  <view class="er-price">
+    <view class="lefr">￥
+      <text class="price">{{sppp.price}}</text> /组
+    </view>
+    <view class="right">月销量:{{sppp.xl}}</view>
+  </view>
+</view>
+<view class="baoyou">
+  <text>配送</text>
+  <text class="se">包邮·24小时内发货。因为交通情况派送或有延迟</text>
+</view>
+<view class="san">
+  <text>分享</text>
+  <view class="riii">
+    <view style="color:black;">
+      <image src="../../images/我的/hb.png" style="width:25rpx;height:25rpx;margin-right:10rpx;"></image>
+      连续签到领取微信红包</view>
+    <view>你有现金红包待领取</view>
+  </view>
+</view>
+<view class="button">
+<view style="width:60rpx;height:60rpx;margin-top:30rpx;margin-left:20rpx;position: relative;">
+<image src="../../images/gwcc.png" style="width:60rpx;height:60rpx;">
+</image>
+<view class="zii">{{asd}}</view>
+</view>
+
+<view class="rhhh">
+<text style="background:pink;color:#d4237a;" bindtap="jiajia">加入购物车</text>
+<text style="background:#d4237a;color:pink;" bindtap="js">立即购买</text>
+</view>
+</view>

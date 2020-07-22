@@ -1,0 +1,40 @@
+.main{
+  width: 100%;
+  height: 100%;
+  /* background: red; */
+}
+.zhong{
+  width: 350rpx;
+  height: 150rpx;
+  /* background: blue; */
+  padding: 200rpx;
+  display: flex;
+  flex-direction: column;
+ font-size: 30rpx;
+ font-weight:600;
+  text-align: center;
+}
+.image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  border: 1rpx solid #cccccc;
+  border-radius: 20rpx;
+  margin-bottom: 10rpx;
+}
+.xxxx{
+  width:700rpx;
+  height: 80rpx;
+  /* background:blue; */
+  padding: 0 25rpx;
+}
+.xxxx text{
+  display: block;
+text-align: center;
+width: 100%;
+height: 100%;
+background: pink;
+border-radius: 10rpx;
+line-height: 80rpx;
+font-size: 28rpx;
+}

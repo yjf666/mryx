@@ -1,0 +1,76 @@
+<view class="search">
+  <view class="secrch-main">
+    <icon type="search" size="15" style="margin-top:20rpx;"></icon>
+    <view class="zz">大连超市上市</view>
+  </view>
+</view>
+<scroll-view scroll-y class="left" scroll-with-animation="true"  bindscrolltoupper="toUpper" bindscrolltolower="toLower" id="scroll-view" scroll-top="{{ scrollTop }}">
+  <block wx:for="{{mryx}}" wx:key="this">
+    <view id="item-{{item.id}}" class="le-list {{curIndex === item.id ? 'le-list-slick' : ''}}" data-index="{{index}}" bindtap="clickk">{{item.title}} </view>
+  </block>
+</scroll-view>
+<scroll-view scroll-x class="top">
+  <block wx:for="{{list}}" wx:key="this">
+    <view class="top-list {{cur === mryx.id ? 'top-list-select' : ''}}" bindtap="ccc" data-index="{{index}}">{{item}}</view>
+  </block>
+</scroll-view>
+<scroll-view scroll-y class="right">
+  <block wx:for="{{sppp}}" wx:key="this">
+    <block wx:if="{{curNav == 0}}">
+    <navigator url="/pages/sp/sp?id={{item.id}}" open-type="navigateTo">
+      <view class="right-list">
+        <image webp class="image1" src="{{item.image}}"></image>
+        <view class="riiii">
+          <view class="titlee">{{item.title}}</view>
+          <view class="yuan">
+            <text wx:for="{{item.js}}" wx:key="this">{{item}}</text>
+
+          </view>
+          <view class="price">
+            <view class="money">￥{{item.price}}</view>
+            <view class="numm">
+              <view class="jianaa" wx:if="{{shows}}" data-index="{{index}}">
+                <view class="jian" catchtap="minusCount" data-index="{{index}}">
+                  <image src="../../images/减.png" webp class="image2"></image>
+                </view>
+                <text>{{item.numm}}</text>
+              </view>
+             <view class="jia" catchtap="addCount" data-index="{{index}}">
+                <image src="../../images/加.png" class="image2" ></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      </navigator>
+    </block>
+    <block wx:elif="{{curNav == item.type }}">
+    <navigator url="/pages/sp/sp?id={{item.id}}" open-type="navigateTo">
+      <view class="right-list">
+        <image webp class="image1" src="{{item.image}}"></image>
+        <view class="riiii">
+          <view class="titlee">{{item.title}}</view>
+          <view class="yuan">
+            <text wx:for="{{item.js}}" wx:key="this">{{item}}</text>
+
+          </view>
+          <view class="price">
+            <view class="money">￥{{item.price}}</view>
+            <view class="numm">
+              <view class="jianaa" wx:if="{{shows}}" data-index="{{index}}">
+                <view class="jian" catchtap="minusCount" data-index="{{index}}">
+                  <image src="../../images/减.png" webp class="image2"></image>
+                </view>
+                <text>{{item.numm}}</text>
+              </view>
+              <view class="jia" catchtap="addCount" data-index="{{index}}">
+                <image src="../../images/加.png" class="image2" ></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      </navigator>
+    </block>
+  </block>
+</scroll-view>

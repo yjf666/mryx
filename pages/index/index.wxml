@@ -1,0 +1,183 @@
+<view class="head">
+  <view class="lefrt" bindtap="toaddress">
+    <image webp src="../../images/dzz.png" class="imagess"></image>
+    <text>优鲜超市</text>
+  </view>
+  <navigator class="right" url="/pages/search/search">
+
+    <icon type="search" size="15" style="margin-top:15rpx;"></icon>
+    <view class="zz">大连超市上市</view>
+
+  </navigator>
+</view>
+<view class="csss">
+  <scroll-view class="hadlist" scroll-x scroll-with-animation="true" bindscrolltoupper="toUpper" bindscrolltolower="toLower" id="scroll-view" scroll-left="{{ scrollLeft }}">
+    <view wx:for="{{mryx}}" wx:key="this" id="item-{{item.id}}" class="listt {{curIndex === item.id ? 'le-list-slick' : ''}}" data-index="{{index}}" bindtap="clickk">{{item.title}}</view>
+  </scroll-view>
+  <image src="../../images/ss.png" class="imaaa"></image>
+</view>
+
+
+<block wx:if="{{curNav == 0}}">
+  <view class="main">
+    <view class="headp">
+      <view class="topp">
+        <text>新人专享</text>
+      </view>
+      <view class="shiujian">首件一元起包邮到家</view>
+      <view class="imagss">
+        <view class="lisss">
+          <image class="igg" src="https://img13.360buyimg.com/n7/s230x230_jfs/t2170/200/1572796726/161316/cc829784/565eb198N30740f3a.jpg"></image>
+          <view class="imtit">
+            <text style="background:#d4237a;color:pink;font-size:20rpx;padding:0 10rpx;">新人价</text>
+            <text>￥9.9</text>
+          </view>
+        </view>
+        <view class="lisss">
+          <image class="igg" src="https://img12.360buyimg.com/n7/s230x230_jfs/t1/16303/7/4988/90115/5c36a0b1E75d74346/2f3d691d860163bc.jpg"></image>
+          <view class="imtit">
+            <text style="background:#d4237a;color:pink;font-size:20rpx;padding:0 10rpx;">新人价</text>
+            <text>￥9.9</text>
+          </view>
+        </view>
+        <view class="lisss">
+          <image class="igg" src="https://img30.360buyimg.com/n7/s230x230_jfs/t30619/236/389963908/469876/e36457e0/5bf26070N12d9e3a6.jpg"></image>
+          <view class="imtit">
+            <text style="background:#d4237a;color:pink;font-size:20rpx;padding:0 10rpx;">新人价</text>
+            <text>￥9.9</text>
+          </view>
+        </view>
+        <view class="lisss">
+          <image class="igg" src="https://img10.360buyimg.com/n7/jfs/t1/94118/36/14500/152135/5e660182E3d0f4e35/11cb0d9699f58a51.jpg"></image>
+          <view class="imtit">
+            <text style="background:#d4237a;color:pink;font-size:20rpx;padding:0 10rpx;">新人价</text>
+            <text>￥9.9</text>
+          </view>
+        </view>
+      </view>
+      <view class="asd">查看更多</view>
+    </view>
+    <view class="ldf">
+      <view class="lasd">
+        <image class="ljg" src="https://p0.meituan.net/jungle/58b60a312cf86f3a3afc4c96ff0e53438774.png"></image>
+        <text>热销榜单</text>
+      </view>
+      <view class="lasd">
+        <image class="ljg" src="https://p0.meituan.net/jungle/2ec76f8f4f21a4ec163adc7fccfa1a399428.png"></image>
+        <text>热销榜单</text>
+      </view>
+      <view class="lasd">
+        <image class="ljg" src="https://p0.meituan.net/jungle/2eee7747fd143249b100b9fa5ee5e31d9873.png"></image>
+        <text>热销榜单</text>
+      </view>
+      <view class="lasd">
+        <image class="ljg" src="https://p1.meituan.net/jungle/dfd03fd91f640682c16179ba85837f739679.png"></image>
+        <text>热销榜单</text>
+      </view>
+      <view class="lasd">
+        <image class="ljg" src="https://p1.meituan.net/jungle/99fb0a3687a7ad570d015ec081ff396a9989.png"></image>
+        <text>热销榜单</text>
+      </view>
+    </view>
+    <view class="thre">
+      <view class="thre-re">
+        <view class="dsa">甄选鲜果</view>
+        <view class="lsssd">70减10</view>
+        <image class="ilkj" src="https://img11.360buyimg.com/n7/jfs/t1/106114/21/5550/196307/5dede253E4233bb21/32c9ff3f4e1800bb.jpg"></image>
+      </view>
+      <view class="thre-re">
+        <view class="dsa">乳品零食</view>
+        <view class="lsssd">70减10</view>
+        <image class="ilkj" src="https://img13.360buyimg.com/n7/s230x230_jfs/t1/78884/15/14559/208388/5dbe8f22E5db15e99/c16a4055dd4af05f.jpg"></image>
+      </view>
+      <view class="thre-re">
+        <view class="dsa">省钱攻略</view>
+        <view class="lsssd">70减10</view>
+        <image class="ilkj" src="https://img20.360buyimg.com/n7/jfs/t1/108422/36/7050/493861/5e56122dE5bf7c748/bb7e60ab71a7fe4a.jpg"></image>
+      </view>
+    </view>
+    <view class="miaosha">
+      <view class="miaost"> 每日秒杀</view>
+      <view class="mmlist">
+        <image class="iouu" src="https://img13.360buyimg.com/n7/jfs/t1/99278/23/2022/460730/5dca7caeE5a158a09/c215ebd82bfd1065.jpg"></image>
+        <text style="font-size:20rpx;">已抢2.0万件</text>
+        <text style="font-size:24rpx;color:red;">￥69</text>
+        <text>￥99</text>
+      </view>
+      <view class="mmlist">
+        <image class="iouu" src="https://img30.360buyimg.com/n7/jfs/t1/79338/8/15794/115069/5dd413a5Edfa26451/5dee8882c7377204.jpg"></image>
+        <text style="font-size:20rpx;">已抢2.0万件</text>
+        <text style="font-size:24rpx;color:red;">￥69</text>
+        <text>￥99</text>
+      </view>
+      <view class="mmlist">
+        <image class="iouu" src="https://img30.360buyimg.com/n7/jfs/t1/88193/14/14410/120916/5e660d88Ee87a3d3d/5cd2cee6edd81d0c.jpg"></image>
+        <text style="font-size:20rpx;">已抢2.0万件</text>
+        <text style="font-size:24rpx;color:red;">￥69</text>
+        <text>￥99</text>
+      </view>
+    </view>
+
+
+    <block wx:for="{{spppp}}" wx:key="this">
+      <navigator url="/pages/sp/sp?id={{item.id}}" open-type="navigateTo">
+        <view class="right-list">
+          <image webp class="image1" src="{{item.image}}"></image>
+          <view class="riiii">
+            <view class="titlee">{{item.title}}</view>
+            <view class="yuan">
+              <text wx:for="{{item.js}}" wx:key="this">{{item}}</text>
+
+            </view>
+            <view class="price">
+              <view class="money">￥{{item.price}}</view>
+              <view class="numm">
+                <view class="jianaa" wx:if="{{shows}}" data-index="{{index}}">
+                  <view class="jian" catchtap="minusCount" data-index="{{index}}">
+                    <image src="../../images/减.png" webp class="image2"></image>
+                  </view>
+                  <text>{{item.numm}}</text>
+                </view>
+                <view class="jia" catchtap="addCount" data-index="{{index}}">
+                  <image src="../../images/加.png" class="image2"></image>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </navigator>
+
+    </block>
+  </view>
+</block>
+<block wx:elif="{{curNav != 0}}">
+  <view class="mainn">
+    <block wx:for="{{sppp}}" wx:key="this">
+      <block wx:if="{{curNav == item.type}}">
+        <navigator url="/pages/sp/sp?id={{item.id}}" open-type="navigateTo" class="navv">
+          <view class="listtt">
+            <image src="{{item.image}}" class="imagdd" webp></image>
+            <view class="titlee">{{item.title}}</view>
+            <view class="yuan">
+              <text wx:for="{{item.js}}" wx:key="this">{{item}}</text>
+            </view>
+            <view class="price">
+              <view class="money">￥{{item.price}}</view>
+              <view class="numm">
+                <view class="jianaa" wx:if="{{shows}}" data-index="{{index}}">
+                  <view class="jian" catchtap="minusCount" data-index="{{index}}">
+                    <image src="../../images/减.png" webp class="image2"></image>
+                  </view>
+                  <text>{{item.numm}}</text>
+                </view>
+                <view class="jia" catchtap="addCount" data-index="{{index}}">
+                  <image src="../../images/加.png" class="image2"></image>
+                </view>
+              </view>
+            </view>
+          </view>
+        </navigator>
+      </block>
+    </block>
+  </view>
+</block>

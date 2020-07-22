@@ -1,0 +1,89 @@
+.title{
+  width: 710rpx;
+  height: 80rpx;
+
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.title text{
+  height: 100%;
+  line-height: 80rpx;
+}
+.main{
+  width: 710rpx;
+  height: auto;
+  
+  padding: 0 20rpx;
+}
+.list{
+  width: 100%;
+ height: auto;
+  float: left;
+
+}
+
+.titlee{
+  width:520rpx;
+  float: right;
+  height: 80rpx;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  line-height: 80rpx;
+    border-bottom: 1rpx solid #ededed;
+}
+.wanchn{
+  font-size: 24rpx;
+  color: gainsboro;
+}
+.iii{
+  display: flex;
+  justify-content: space-between;
+}
+.imagee{
+  width: 160rpx;
+  height: 160rpx;
+  margin-left: 20rpx;
+ 
+  
+}
+.liii{
+  width: 600rpx;
+  float: right;
+  height: 50rpx;
+ 
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #666666;
+  line-height: 50rpx;
+}
+.sc{
+  width: 100%;
+  
+  height: 60rpx;
+  float: left;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.sc text{
+ 
+  height: 40rpx;
+  background: white;
+  border: 1px solid #ededed;
+  padding: 10rpx 20rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  float: right;
+}
+.qian{
+  width: 100%;
+  height: 20rpx;
+  
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20rpx;
+}

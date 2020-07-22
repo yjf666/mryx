@@ -1,0 +1,48 @@
+<view class="head">
+  <icon type="search" row="12" class="cee"></icon>
+  <input class="sec" bindinput="inputvalue" placeholder="输入搜索内容" value="{{input_value}}"></input>
+  <view class="an" bindtap="seaarch">搜索</view>
+</view>
+<view class="Search_record_box">
+  <view class="Search_record_text">
+    <text>搜索记录</text>
+    <image bindtap='delete_list' src='../../images/sc.png'></image>
+  </view>
+  <!--记录词的盒子-->
+  <view class="History_box">
+    <view class="History-list">
+      <text wx:for="{{listarr}}" data-text="{{item}}" wx:key="key" bindtap='this_value'>{{item}}</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="mainn">
+    <block wx:for="{{asa}}" wx:key="this">
+      
+     <navigator url="/pages/sp/sp?id={{item.id}}" open-type="navigateTo" class="navv">
+        <view class="listtt">
+          <image src="{{item.image}}" class="imagdd" webp></image>
+          <view class="titlee">{{item.title}}</view>
+          <view class="yuan">
+            <text wx:for="{{item.js}}" wx:key="this">{{item}}</text>
+          </view>
+          <view class="price">
+            <view class="money">￥{{item.price}}</view>
+            <view class="numm">
+              <view class="jianaa" wx:if="{{shows}}" data-index="{{index}}">
+                <view class="jian"catchtap="minusCount" data-index="{{index}}">
+                  <image src="../../images/减.png" webp class="image2"></image>
+                </view>
+                <text>{{item.numm}}</text>
+              </view>
+              <view class="jia"catchtap="addCount" data-index="{{index}}">
+                <image src="../../images/加.png" class="image2"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+        </navigator>
+      
+    </block>
+  </view>

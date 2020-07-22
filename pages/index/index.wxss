@@ -1,0 +1,407 @@
+page{
+  background-color:rgba(0, 0, 0, 0.05);
+}
+.head{
+  width: 710rpx;
+  height: 55rpx;
+  /* background: red; */
+  padding: 0 20rpx;
+  display: flex;
+  background: white;
+  justify-content: space-between;
+}
+.lefrt{
+  width: 25%;
+  height: 100%;
+  /* background: blue; */
+  display: flex;
+  justify-content: start;
+  color: #d4237a;
+  font-size: 28rpx;
+  font-weight: bold;
+  line-height: 60rpx;
+  
+}
+.right{
+  width: 75%;
+  height: 100%;
+ 
+  
+  background:rgba(0, 0, 0, 0.05);
+  border-radius: 10rpx;
+  font-size: 20rpx;
+  display: flex;
+  justify-content: center;
+  line-height: 50rpx;
+}
+.zz{
+  line-height: 60rpx;
+  margin-left: 20rpx;
+  color: #999999;
+}
+.imagess{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 5rpx;
+}
+.hadlist{
+  width: 710rpx;
+  height: 55rpx;
+  background: white;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid rgba(0, 0, 0, 0.1);
+padding-top: 20rpx;
+ white-space: nowrap;
+
+}
+.listt{
+  width: 120rpx;
+  height: 55rpx;
+   display: inline-block;
+   font-size: 26rpx;
+   margin-right: 60rpx;
+}
+.le-list-slick{
+  width: 120rpx;
+  height: 55rpx;
+  
+  display: inline-block;
+   font-size: 28rpx;
+   margin-right: 60rpx;
+ position: relative;
+  
+  font-weight: bold;
+}
+.le-list-slick::before{
+  content: "";
+  position: absolute;
+  width: 60rpx;
+  height: 10rpx;
+  background: red;
+  bottom: 0 ;
+  left: 20%;
+}
+.imaaa{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right:20rpx;
+  top: 25rpx;
+  background: white
+}
+.csss{
+  position: relative;
+  
+}
+.right-list{
+  width: 100%;
+  height: 240rpx;
+  /* background: red; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.image1{
+  width: 220rpx;
+  height: 220rpx;
+  /* background: red; */
+  float: left;
+}
+.riiii{
+  width: 460rpx;
+  padding-left: 20rpx;
+  float: right;
+  height: 240rpx;
+  /* background: blue; */
+  position: relative;
+}
+.titlee{
+  width: 100%;
+  height: 40rpx;
+  /* background: yellow; */
+
+}
+.yuan{
+  width: 100%;
+  height: 40rpx;
+}
+.yuan text{
+  border: 1rpx solid #999999;
+ display: inline-block;
+font-size: 18rpx;
+border-radius: 5rpx;
+color: #999999;
+margin-right: 20rpx;
+}
+.price{
+  width: 100%;
+  height: 60rpx;
+  /* background: red; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.money{
+  width: 50%;
+  height: 100%;
+  /* background: pink; */
+  color: red;
+}
+.numm{
+   width: 60%;
+  height: 100%;
+  /* background: black; */
+}
+.jianaa{
+  width: 66%;
+  height: 100%;
+  float: left;
+  /* background: red; */
+  
+}
+.jia{
+  width: 33%;
+  height: 100%;
+  border-radius: 50%;
+  
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+.jian{
+  width: 33%;
+  height: 100%;
+  border-radius: 50%;
+  
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+.jianaa text{
+  display: inline-block;
+  height: 100%;
+  line-height: 60rpx;
+  margin-left: 40rpx;
+  font-size: 28rpx;
+}
+.image2{
+  width: 40rpx;
+  height: 40rpx;
+margin-top: 10rpx;
+}
+.main{
+  width: 710rpx;
+  height: auto;
+  padding: 0 20rpx;
+ background: white;
+ overflow: hidden;
+}
+.mainn{
+  width: 710rpx;
+  height: 100%;
+  padding: 0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.navv{
+  display: block;
+  width: 44%;
+  height: 500rpx;
+  padding: 20rpx;
+background: white;
+ border-radius: 10rpx;
+}
+.listtt{
+  width: 100%;
+  height: 500rpx;
+  
+ 
+flex-direction: column;
+position: relative;
+
+
+}
+.imagdd{
+  width: 310rpx;
+  height: 310rpx;
+
+}
+.headp{
+  width:100%;
+  height: 400rpx;
+  background: linear-gradient(0deg, white 20%, pink);
+  border-radius: 20rpx;
+  box-shadow:0 10px 9px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+}
+.topp{
+  width: 100%;
+  height: 50rpx;
+  /* background: white; */
+  margin-top: 20rpx;
+}
+.topp text{
+  font-size: 24rpx;
+  color: #d4237a;
+  border-radius: 20rpx;
+  border: 1px solid #d4237a;
+  padding: 0 10rpx;
+  margin-left: 30rpx;
+}
+.shiujian{
+  width: 650rpx;
+  padding: 0 30rpx;
+  height: 50rpx;
+  /* background: red; */
+  color: #d4237a;
+  line-height: 50rpx;
+}
+.imagss{
+  width: 650rpx;
+  padding: 0 30rpx;
+  height: 220rpx;
+  /* background: plum; */
+  display: flex;
+  justify-content: space-around;
+}
+.lisss{
+  width: 23.5%;
+  height: 100%;
+  background: white;
+  border-radius: 10rpx;
+}
+.igg{
+width: 100%;
+height: 150rpx;
+/* background: red; */
+margin-top: 20rpx;
+
+}
+.imtit{
+  width: 100%;
+  height: 35rpx;
+  /* background: blue; */
+  /* margin-top: -10rpx; */
+  display: flex;
+  justify-content: space-around;
+}
+.imtit text{
+  font-size: 24rpx;
+  line-height: 35rpx;
+color: red;
+}
+.asd{
+  width: 100%;
+  height: 30rp;
+  color: #999999;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 40rpx;
+}
+.ldf{
+  width: 100%;
+  height: 140rpx;
+  /* background: blue; */
+ 
+margin-top: 40rpx;
+margin-bottom: 20rpx;
+display: flex;
+justify-content: space-around;
+}
+.lasd{
+  width: 17%;
+  height: 100%;
+  /* background: red; */
+  text-align: center;
+  font-size: 22rpx;
+}
+.lasd text{
+ display: block;
+ width: 100%;
+ height: 30rpx;
+ line-height: 30rpx;
+}
+.ljg{
+  width: 100rpx;
+  height: 100rpx;
+  /* background: pink; */
+
+}
+.thre{
+  width: 100%;
+  height: 140rpx;
+  /* background: red; */
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.thre-re{
+  width: 29.5%;
+  height: 100%;
+  background: #fcebf3;
+  border-radius: 10rpx;
+}
+.dsa{
+width: 100%;
+height: 40rpx;
+/* background: yellow; */
+font-size: 26rpx;
+margin-top: 10rpx;
+padding-left: 10rpx;
+}
+.lsssd{
+  width: 60%;
+  height: 80rpx;
+  /* background: blue; */
+  float: left;
+  font-size: 20rpx;
+  color: #999999;
+}
+.ilkj{
+  width: 80rpx;
+  height: 80rpx;
+  /* background: yellow; */
+  float: left;
+  border-radius: 50%;
+}
+.miaosha{
+  width: 100%;
+  height: 330rpx;
+  /* background: yellow; */
+  margin-bottom: 20rpx;
+}
+.miaost{
+  width: 100%;
+  height: 70rpx;
+  /* background: red; */
+  line-height: 70rpx;
+  font-weight: bold;
+  font-size: 26rpx;
+}
+.mmlist{
+  width: 32%;
+  height: 260rpx;
+  /* background: blue; */
+  display: flex;
+  flex-direction: column;
+ float: left;
+ margin-left: 8rpx;
+}
+.iouu{
+  width: 180rpx;
+  height: 180rpx;
+  /* background: pink; */
+   margin: 0 auto;
+}
+.mmlist text{
+  width: 180rpx;
+  height: 30rpx;
+  display: block;
+  margin: 0 auto;
+  font-size: 20rpx;
+  color:#999999;
+}

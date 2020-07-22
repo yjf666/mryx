@@ -1,0 +1,48 @@
+<view class="main">
+  <navigator url="../spdz/spdz">
+    <view wx:if="{{hasAddress}}" class="orders-address">
+      <text class="orders-address-detail">{{address.add}}</text>
+
+      <text class="orders-address-detail">{{address.number}}</text>
+      <view class="mmm">
+        <text class="orders-address-name">收货人: {{address.name}}</text>
+        <text class="orders-address-phone">电话: {{address.phone}}</text>
+      </view>
+
+    </view>
+    <view wx:else class="orders-no-address">添加收货地址</view>
+  </navigator>
+
+  <view class="orders-box">
+    <view class="yuan">
+      <view class="head">美鲜超市</view>
+      <view wx:for="{{sp}}" wx:key="index" class="orders-list">
+        <image class="orders-thumb" src="{{item.image}}"></image>
+        <view class="liss">
+        <view class="orders-pro-name">{{item.title}}</view>
+        <view class="orders-pro-price">￥{{item.price}}</view>
+        </view>
+        <view class="orders-count-num">×{{item.numm}}</view>
+      </view>
+      <view class="hb">
+      <view class="yi">
+      <text>包装费</text>
+      <text>￥0</text>
+      </view>
+      <view class="yi">
+      <text>配送费</text>
+      <text>￥{{jie.ps}}</text>
+      </view>
+      </view>
+      <view class="xiaoji">
+      <view class="nuuu">小计￥
+      <text class="nnnn">{{total}}</text>
+      </view>
+      </view>
+    </view>
+  </view>
+  <view class="orders-footer">
+    <view class="orders-footer-total">合计：￥{{total}}</view>
+    <view class="orders-footer-btn" bindtap="toPay" style="background:#d4237a;color:pink;">支付</view>
+  </view>
+</view>

@@ -1,0 +1,34 @@
+.main{
+  width: 600rpx;
+  
+  padding: 70rpx;
+  /* backgr/ound: red; */
+  position: relative
+}
+.phone{
+width: 100%;
+height: 80rpx;
+border-bottom: 1rpx solid #cccccc;
+}
+.ynz{
+  width: 200rpx;
+  height: 50rpx;
+  /* background: blue; */
+  position: absolute;
+  right: 50rpx;
+top: 100rpx;
+font-size: 24rpx;
+color: #cccccc;
+text-align: center;
+line-height: 50rpx;
+z-index: 99;
+}
+.dll{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 80rpx;
+  background: #cccccc;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+}

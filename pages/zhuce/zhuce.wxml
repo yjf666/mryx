@@ -1,0 +1,10 @@
+<view class="main">
+  <view class="zhong">
+    <view class="ynz" bindtap="add">获取验证码</view>
+    <input class="phone" bindinput="seavUsertell5" placeholder="手机号" value="{{addtel.phone}}">
+
+    </input>
+    <input class="phone" bindinput="seavUsertell6" placeholder="验证码" value="{{addtel.yzm}}"></input>
+  </view>
+  <view class="dll" bindtap="yes">登录</view>
+</view>
